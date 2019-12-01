@@ -96,7 +96,7 @@ public class PinLockView extends RecyclerView {
         }
     };
     
-    public deleteClick() {
+    public void deleteClick() {
      if (mPin.length() > 0) {
                 mPin = mPin.substring(0, mPin.length() - 1);
 
